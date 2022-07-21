@@ -36,32 +36,32 @@
 
 
 
-let ArrayOfObjects=[
-    {Name:'W',
-    Age:10
-    },
+// let ArrayOfObjects=[
+//     {Name:'W',
+//     Age:10
+//     },
     
-   {Name:'Y',
-        Age:10
-        },
-    {Name:'G',
-    Age:30
-     },
-  {Name:'H',
-     Age:20
-     },
+//    {Name:'Y',
+//         Age:10
+//         },
+//     {Name:'G',
+//     Age:30
+//      },
+//   {Name:'H',
+//      Age:20
+//      },
         
     
-]
+// ]
 
-let testOFsplice=(Array1)=>{
-Array1.forEach(element => {
-    if(element.Age>=20){
-        Array1.splice(0,1,{Name:'Taha',Age:18})
-    }
-});
-return Array1;
+// let testOFsplice=(Array1)=>{
+// Array1.forEach(element => {
+//     if(element.Age>=20){
+//         Array1.splice(0,1,{Name:'Taha',Age:18})
+//     }
+// });
+// return Array1;
 
-}
-let newValue=testOFsplice(ArrayOfObjects);
-console.log(newValue);
+// }
+// let newValue=testOFsplice(ArrayOfObjects);
+// console.log(newValue);
