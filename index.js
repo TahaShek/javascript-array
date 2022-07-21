@@ -66,6 +66,7 @@
 // let newValue=testOFsplice(ArrayOfObjects);
 // console.log(newValue);
 
-let ArrayOfClass=['taha','malik','riaz','anupam']
-
-l
+let ArrayOfClass=[18,15,10,12];
+ArrayOfClass.forEach(function(newValue,index){
+console.log(newValue,index);
+})
