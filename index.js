@@ -65,3 +65,7 @@
 // }
 // let newValue=testOFsplice(ArrayOfObjects);
 // console.log(newValue);
+
+let ArrayOfClass=['taha','malik','riaz','anupam']
+
+l
