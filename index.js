@@ -66,7 +66,17 @@
 // let newValue=testOFsplice(ArrayOfObjects);
 // console.log(newValue);
 
-let ArrayOfClass=[18,15,10,12];
-ArrayOfClass.forEach(function(newValue,index){
-console.log(newValue,index);
-})
+// let ArrayOfClass=[18,15,10,12];
+// ArrayOfClass.forEach(function(newValue,index){
+// console.log(newValue,index);
+// })
+
+
+// let GetSevenValue=()=>{
+//     let sevenValue = (document.querySelector('.seven').dataset.seven);
+//     let getvalue=document.querySelector('.input')
+//     getvalue.placeholder=sevenValue;
+//     // console.log(sevenValue);
+// }
+
+
