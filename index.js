@@ -80,7 +80,41 @@
 // }
 
 
- let a=String.fromCharCode(69  );
- console.log(a);
+// let we='we here for javascript ' 
+// let h=we.repeat('5')
 
 
+// console.log(h)
+//  document.querySelector('.change').onclick= color;
+// function color(){
+//     document.querySelector('.change').style.color='red';
+// }
+
+
+
+
+// let a='hello we here';
+// let b= a.substr(2,5);
+// console.log(b);
+
+// let Name='ali';
+// switch(Name){
+// case 'ali':
+//     console.log('we herer');
+// break;
+// case 'taha':
+//     console.log('ja ja tur ja ');
+
+
+// }
+
+
+function newcar (Name,color,model)
+{
+    this.name=Name;
+    this.Color=color;
+    this.model=model;
+
+}
+let Honda=new newcar('City','red',2018)
+console.log(Honda)
