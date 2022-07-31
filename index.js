@@ -109,15 +109,40 @@
 // }
 
 
-function newcar (Name,color,model)
-{
-    this.name=Name;
-    this.Color=color;
-    this.model=model;
-   this.AllaboutCar=function(){
-        return `${this.name} and color is ${this.Color}`
-    }
-}
-let Honda=new newcar('City','red',2018)
-// console.log(Honda)
-console.log(Honda.AllaboutCar(  ))
+// function newcar (Name,color,model)
+// {
+//     this.name=Name;
+//     this.Color=color;
+//     this.model=model;
+//    this.AllaboutCar=function(){
+//         return `${this.name} and color is ${this.Color}`
+//     }
+// }
+// let Honda=new newcar('City','red',2018)
+// // console.log(Honda)
+// // console.log(Honda.AllaboutCar(  ))
+// newcar.prototype
+
+
+
+
+
+// console.log(window)
+// let items=document.querySelectorAll('.items')
+// items.forEach((item) => console.log(item));
+// console.log(items)
+
+// let ul =document.querySelector('.items')
+// ul.remove();
+// ul.lastElementChild.remove();
+// ul.firstElementChild.innerHTML='we herer'
+// let btn=document.querySelector('.btn');
+
+// btn.addEventListener('click',(e)=>{
+//     e.preventDefault();
+//     // console.log(e.target)
+// let form= document.querySelector('#my-form')
+// // form.style.background='red'
+
+// }) 
+
