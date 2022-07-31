@@ -148,13 +148,32 @@
 
 let myForm=document.querySelector('#my-form');
 let MyName=document.querySelector('#name');
-let Message=document.querySelector('#msg');
+let Message=document.querySelector('.msg');
 let EmailInput=document.querySelector('#email');
-let Userlist=document.querySelector('#user');
+let Userlist=document.querySelector('#users');
+
 
 
 myForm.addEventListener('submit',onSubmit);
 function onSubmit(e){
-    e   .preventDefault();
-    
+    e.preventDefault();
+
+if(MyName.value==='' || EmailInput.value===''){
+   Message.classList.add('error');
+    Message.innerHTML='Please Enter All fields';
+   setTimeout( ()=>Message.remove(),2000  );
 }
+
+else{
+    let li=document.createElement('li');
+    li.appendChild(document.createTextNode(`${MyName.value}  ${EmailInput.value}`));
+    Userlist.appendChild(li);
+
+
+// Clear fields 
+MyName.value=''
+EmailInput.value=''  
+
+}
+    
+}   
