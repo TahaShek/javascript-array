@@ -151,3 +151,10 @@ let MyName=document.querySelector('#name');
 let Message=document.querySelector('#msg');
 let EmailInput=document.querySelector('#email');
 let Userlist=document.querySelector('#user');
+
+
+myForm.addEventListener('submit',onSubmit);
+function onSubmit(e){
+    e   .preventDefault();
+    
+}
