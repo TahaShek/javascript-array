@@ -238,3 +238,48 @@
 
 // }
 // console.log(obj)
+
+
+// let Array1=[1,2,3]
+// let Array2=[4,5,6]
+
+// Array3=[...Array1,...Array2]
+// console.log(Array3)
+// let personTaha={
+//     name:'taha';
+//     age:18,
+//     height:5.4
+// }
+// let newperson={...personTaha}
+// console.log(newperson)
+
+// let obj1={
+//     key1:'value1',
+//     key2:'value2'
+// }
+
+// let object2={
+//     key3:'val4',
+//     key4:'val5'
+// }
+// let newobj={...'abc'}
+// console.log(newobj)
+
+
+
+// let Array1=['item1','item2']
+// let [var1,var2]=Array1;
+// console.log(var1,var2)
+
+let person={
+    bandname:'mike',
+    age:19,
+};
+
+
+
+let{bandname,age}=person;
+console.log(bandname,age)
+// let var1=person.bandname
+// let var2=person.age
+// console.log(bandname,age)
