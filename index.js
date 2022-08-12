@@ -146,34 +146,95 @@
 
 // }) 
 
-let myForm=document.querySelector('#my-form');
-let MyName=document.querySelector('#name');
-let Message=document.querySelector('.msg');
-let EmailInput=document.querySelector('#email');
-let Userlist=document.querySelector('#users');
+// let myForm=document.querySelector('#my-form');
+// let MyName=document.querySelector('#name');
+// let Message=document.querySelector('.msg');
+// let EmailInput=document.querySelector('#email');
+// let Userlist=document.querySelector('#users');
 
 
 
-myForm.addEventListener('submit',onSubmit);
-function onSubmit(e){
-    e.preventDefault();
+// myForm.addEventListener('submit',onSubmit,false);
+// function onSubmit(e){
+//     e.preventDefault();
 
-if(MyName.value==='' || EmailInput.value===''){
-   Message.classList.add('error');
-    Message.innerHTML='Please Enter All fields';
-   setTimeout( ()=>Message.remove(),2000  );
-}
+// if(MyName.value==='' || EmailInput.value===''){
+//    Message.classList.add('error');
+//     Message.innerHTML='Please Enter All fields';
+//    setTimeout( ()=>Message.remove(),2000  );
+// }
 
-else{
-    let li=document.createElement('li');
-    li.appendChild(document.createTextNode(`${MyName.value}  ${EmailInput.value}`));
-    Userlist.appendChild(li);
+// else{
+//     let li=document.createElement('li');
+//     li.appendChild(document.createTextNode(`${MyName.value}  ${EmailInput.value}`));
+//     Userlist.appendChild(li);
 
 
-// Clear fields 
-MyName.value=''
-EmailInput.value=''  
+// // Clear fields 
+// MyName.value=''
+// EmailInput.value=''  
 
-}
+// }
     
-}   
+// }   
+// let Array1=['item1','item2'];
+// // let Array2=['item1','item2'];
+// // let Array2=Array1.slice(0).concat(['3rwewrfsfsfds'])
+// let onemore=['we hrer']
+// let Array2=[...Array1,...onemore]
+
+// let fruits=['apple','mango','bannana','peach','sdadsa']
+// // 
+// for(let fruit in fruits){
+//     console.log(fruit)
+// }
+
+
+// let Array1=['value1','value2','value3','value4']
+
+// let [my1,my2,...mynewArray]=Array1;
+
+// let mynewArray=Array1.slice(2)
+// let my1=Array1[0];
+// let my2=Array1[1];
+// console.log(`value of my 1 is ${my1}`)
+// console.log(`value of my 2 is ${my2}`)
+// console.log(mynewArray)
+
+// let key2='heihgt'
+// let person={
+//     name:'taha',
+//     age:25,
+//    'person hoobie':['football','sleeping']
+// }
+// let key="email"
+// person[key2]=5.4
+// person[key]='tahashek@gmail.com'
+
+// console.log(person)
+
+
+
+// // console.log(person)
+// // console.log(person['hoobie'])
+// // person['person']='male'
+// // console.log(person);
+
+
+// for (let key in person){
+//     console.log(`${key}:${person[key]}`)
+// }
+
+// console.log(Object.keys(person))
+// let key1='object1';
+// let key2='object2';
+
+// let value1='myvalue1'
+// let value2='myvalue2'
+
+// let obj={
+// [key1]:value1,
+// [key2]:value2
+
+// }
+// console.log(obj)
