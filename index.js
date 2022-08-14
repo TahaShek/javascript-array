@@ -271,15 +271,36 @@
 // let [var1,var2]=Array1;
 // console.log(var1,var2)
 
-let person={
-    bandname:'mike',
-    age:19,
-};
+// let person={
+//     bandname:'mike',
+//     age:19,
+// };
 
 
 
-let{bandname,age}=person;
-console.log(bandname,age)
+// let{bandname,age}=person;
+// console.log(bandname,age)
 // let var1=person.bandname
 // let var2=person.age
 // console.log(bandname,age)
+
+
+
+// let game={
+//     gameName:'football',
+//     players:11,
+//     subs:5
+// }
+// let {subs:gameName,players,}=game;
+// console.log(gameName)
+
+// let users=[
+//     {userId:1,Name:'taha',gender:'male'},
+//     {userId:2,Name:'ali',gender:'male'},
+//     {userId:3,Name:'malik',gender:'male'},
+   
+
+// ]
+// for(let user of users){
+//     console.log(user.userId)
+// }
