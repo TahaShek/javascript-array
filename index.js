@@ -301,6 +301,44 @@
    
 
 // ]
+
+// let [ {Name:hello},, {gender} ]=users
+// console.log(hello)
+
+
+
+
 // for(let user of users){
 //     console.log(user.userId)
 // }
+
+
+// function hello(strings){
+
+//     return strings[0]
+// }
+// console.log(hello('dfgdfgdfgdf'))
+
+
+
+
+
+
+
+// function find(array,target){
+//     for (let i=0;i<array.length;i++){
+//         if(array[i]===target){
+//             return i;
+//         }
+        
+//     }
+//     return -1
+// }
+// const mynewArray=[1,2,3,4,5];
+// let answer=find(mynewArray,1);
+// console.log(answer)
+
+
+
+// function inside fucntion 
+
