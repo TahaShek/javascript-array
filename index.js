@@ -341,4 +341,32 @@
 
 
 // function inside fucntion 
+// let app=()=>{
 
+// let myfunc=()=>{
+//     console.log('hello from my finc');
+// }
+
+// let add=(num1,num2)=>{
+//     return num1+num2;
+// }
+
+//     console.log('hello');
+
+//     myfunc()
+//     console.log(add(50,8110)) 
+
+// }
+
+// app()
+// \
+
+
+// default parameters 444
+
+
+
+// let taha=function(a,b=0){
+// return a+b;
+// }
+// console.log(taha(5,20865))
