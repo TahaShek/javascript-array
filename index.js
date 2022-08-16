@@ -456,3 +456,30 @@
 // return element%2===1
 // });
 // console.log(num2)
+
+
+// let user =[
+//     {id:1,Pname:"laptop",Price:12000},
+//     {id:2,Pname:"tab",Price:22000},
+//     {id:3,Pname:"mobile",Price:32000}
+// ]
+
+//   let cart= user.reduce((value1,totalValue )=>{
+//     return value1+totalValue
+
+// },0);
+
+
+
+// let Name='taha';
+// for (let name of Name ){
+//     console.log(name)
+// }
+// let user =[
+//     {id:1,Pname:"laptop",Price:12000},
+//     {id:2,Pname:"tab",Price:22000},
+//     {id:3,Pname:"mobile",Price:32000}
+// ]
+// for(let users of user ){
+//     console.log(users)
+// }
