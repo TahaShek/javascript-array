@@ -370,3 +370,89 @@
 // return a+b;
 // }
 // console.log(taha(5,20865))
+
+
+// let addnumber=(...addnumber)=>{
+//     let total =0;
+//     for (let number of addnumber){
+//         total=total + number
+//     }
+//     return total;
+// }
+// console.log(addnumber(1,2,3))
+// function func2(name){
+// console.log('we here 2',name)
+// }
+
+
+// function hello(callback){
+
+//     console.log('we here')
+// callback('taha')
+// }
+// hello(func2)
+
+
+
+// let myfun=()=>{
+//     function hello(){
+//         return 2+8596
+//     }
+//     return hello;
+// }
+// let we=myfun();
+// console.log(we())
+
+
+// let number=[4,5,6,7]
+
+// function  hello(numbers,index){
+// console.log(`index is ${index} number is ${numbers}`)
+// }
+
+
+// number.forEach(function(numbers,index){
+//     console.log(numbers+541,index)
+// })
+
+//  user.forEach((element) => {
+//     console.log(element.Name)
+//  });
+
+
+// let number=[1,2,3,5,6]
+  
+// // function hello(number){
+// //     return number*number
+// // }
+
+// hi=number.map((number)=>{
+
+// })
+
+
+
+
+// let user=[
+//     {Name:'thaa',age:18},
+//     {Name:'malik',age:24},
+//     {Name:'ram',age:23},
+//     {Name:'sea',age:22}
+// ]
+
+// let hello=user.map((first)=>{
+//    return first.age
+// }
+//     )
+
+//     console.log(hello)
+
+
+// let num1=[1,2,3,4,5,6,7,8,9]
+
+
+
+// let num2= num1.filter((element)=>{
+// return element%2===1
+// });
+// console.log(num2)
