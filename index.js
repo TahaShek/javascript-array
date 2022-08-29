@@ -483,3 +483,80 @@
 // for(let users of user ){
 //     console.log(users)
 // }
+
+
+console.log('JavaScript OOP');
+
+
+// let person ={
+//     Name:'taha',
+//     age:5,
+   
+// }
+// function about(hobby,music)
+//     {
+//         console.log(this.Name,this.age,hobby,music)
+//     }
+
+
+
+// let user1={
+//     Name:'taha',
+//     age:94,
+// }
+
+// let user2={
+//     Name:'ali',
+//     age:95,    
+// }
+
+// about.call(user1,'fotball','freestyle')
+
+
+
+// let doubleNumber =(number)=>{
+//     return number.map(element=> element*2)
+
+
+// }
+// console.log(doubleNumber([5,8]))
+
+
+// let marks ={
+//     ali:98,
+//     malik:52,
+//     hani:34
+// }
+// for(let mark of marks){
+//     console.log(mark)
+// }
+
+// let result=''
+// let a=[1,2,3,4,5,6];
+// for (let number of a ){
+//     result+=number;
+//     console.log(result)
+// }
+
+// let Array1=[1,2,3,4,5,6];
+// let sum=0;
+// // for(let i=0;i<Array1.length; i++){
+// //         sum+=Array1[i];
+     
+// //     }
+
+//     // console.log(sum)
+// for(let num of Array1){
+//     sum+=num
+// }
+// console.log(sum)
+
+
+// let array=[1,2,3,4,5,6];
+// array.forEach(element =>  {
+    
+//     console.log(element)
+// });
+let number=[1,23,4,5,6,7,8,9]
+
+console
